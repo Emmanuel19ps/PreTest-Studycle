@@ -14,14 +14,12 @@ main(){
     cout<<"\t\t\t\t======================================="<<endl;
 
     cout<<"\nMasukkan jumlah bilangan : ";cin>>n; //input beberapa bilangan
-
     float nilai[n];
 
     /*program dapat menerima input beberapa bilangan*/
     for(int i=0; i<n; i++){
         cout<<"Bilangan "<<(i+1)<<" : ";cin>>nilai[i];
     }
-
     /*fungsi untuk mengurutkan semua bilangan
     yang dimasukkan dari yang terkecil sampai yang terbesar*/
     for(int c=1; c<n; c++){
@@ -37,7 +35,6 @@ main(){
     for(int i=0; i<n; i++){
         cout<<" "<<nilai[i];
     }
-
     /*menampilkan keluaran yang mencakup: nilai rata-rata,
     nilai tengah dan hasil perkalian dari semua bilangan
     yang dimasukkan*/
